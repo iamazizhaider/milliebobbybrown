@@ -1,0 +1,68 @@
+body{
+	padding: 0;
+	margin:0;
+	background:url(hero2.jpg); 
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	font-family: 'Popins', sans-serif;
+}
+header{
+	width: 100%;
+	background: #000;
+}
+header ul{
+	display:flex;
+	justify-content: flex-end;
+	max-width: 1200px;
+	padding:0;
+	margin: 0 auto;
+}
+header ul li{
+	list-style: none;
+	position: relative;
+	padding: 10px;
+	box-sizing: border-box;
+	border-right: 1px solid rgba(255,255,255,.2);
+
+}
+header ul li:hover{
+	background:#2196f3 
+}
+
+header ul li a{
+	text-decoration: none;
+	color:#fff;
+}
+#txt{
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
+.text{
+	font-size: 35px;
+	text-shadow: 3.5px 3.5px 3.5px black;
+	text-transform: uppercase;
+}
+p{
+	font-size: 18px;
+}
+.btn{
+	background: white;
+	border:3px solid #fff;
+	color:black;
+	padding:15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-family: consolas;
+}
+.btn:hover{
+	color:#fff;
+	background:#2196f3 ;
+	border:3px solid #2196f3 ;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px, 0 0 80px #2196f3;
+}
+h6{
+	font-size: 20px;
+}
